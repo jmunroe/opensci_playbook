@@ -85,6 +85,18 @@ mkdir binder
 ```
 
 Copy files from http://github.com/jmunroe/opensci_playbook/binder as starting point. Adjust `environment.yml` to suit.
+
+
+Add 
+
+```
+  jupyter:
+    binder:
+      url: https://binder.opensci.2i2c.cloud/
+```
+
+to `myst.yml` enable content to run on the 2i2c Open Science Binder
+
 :::
 
 
